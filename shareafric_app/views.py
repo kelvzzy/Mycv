@@ -99,8 +99,8 @@ def contactUs(request):
         context = {'user': name, 'message': message}
         html_message = render_to_string('shareafric_app/info.html', context)
         html_message2 = render_to_string('shareafric_app/info2.html', context)
-        send_mail('Welcome to Wisteen Technology', '', 'wisteen.technology@shareafric.com', [email], html_message=html_message, auth_user='wisteen.technology@shareafric.com', auth_password='royrex123%%')
-        send_mail('Hello Wisdom Some one have contacted you!', '', 'wisteen.technology@shareafric.com', ["wisdomisaac168@gmail.com", "okuwisdom8@gmail.com"], html_message=html_message, auth_user='wisteen.technology@shareafric.com', auth_password='royrex123%%')
+        send_mail('Welcome to Kxyzinc Technology', '', 'wisteen.technology@shareafric.com', [email], html_message=html_message, auth_user='wisteen.technology@shareafric.com', auth_password='royrex123%%')
+        send_mail('Hello Kelvin Some one have contacted you!', '', 'wisteen.technology@shareafric.com', ["kelvinworldstudy@gmail.com", "kelvinworldstudy@yahoo.com"], html_message=html_message, auth_user='wisteen.technology@shareafric.com', auth_password='royrex123%%')
 
         # Return a success JSON response
         response = {'message': 'Form submitted successfully We will get back throught your email'}
